@@ -1,0 +1,96 @@
+body{
+    background-color: #ada9a8;
+}
+header{
+    width: 960px;
+    height:90px;
+    background-color: rgb(26, 236, 138);
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#marca{
+    width: 400px;
+    height:90px;
+    background-color: rgb(23, 119, 82);
+    float: left;
+    }
+#botonera{
+    width: 400px;
+    height:90px;
+    background-color: rgb(23, 46, 27);
+    float: right;/*lleva la caja hacia la derecha
+     y habilita espacio hacia la izquierda*/
+}
+
+#contenido_principal{
+        width: 960px;
+        height:800px;
+        background-color: rgb(231, 104, 130);
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+}
+footer{
+    width: 960px;
+    height:134px;
+    background-color: rgb(7, 8, 31);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+#contenidocaja1{
+    width: 310px;
+    height:800px;
+    background-color: rgb(63, 73, 207);
+    float: right;
+    
+}
+#contenidocaja3{
+    width: 310px;
+    height:190px;
+    background-color: rgb(228, 116, 51);
+    float: right;
+    margin-right: 10px;
+    
+   
+}
+
+#contenidocaja4{
+    width: 310px;
+    height:190px;
+    background-color: rgb(133, 56, 11);
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+   
+    
+}
+  #contenidocaja5{
+    width: 310px;
+    height:400px;
+    background-color: rgb(186, 204, 21);
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#contenidocaja2{
+    width: 320px;
+    height:800px;
+    background-color: rgb(27, 119, 194);
+    float: left;
+}
+#datos{
+    width: 200px;
+    height:134px;
+    background-color: rgb(204, 21, 149);
+    float: left;
+
+} 
+#redes{
+    width: 250px;
+    height:80px;
+    background-color: rgb(204, 70, 87);
+    float: right;
+}
+  
