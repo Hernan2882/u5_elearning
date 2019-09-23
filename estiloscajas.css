@@ -11,7 +11,7 @@ h1{
     padding: 30px;/* espacio que del borde hacia dentro */
     box-sizing: content-box;
     /*box-sizing: border-box;*/
-} 
+}
 
 header{
     width: 960px;
@@ -33,11 +33,11 @@ header{
 }
 #botonera ul li a{
     display: block;
-   
+
     color: rgb(93, 221, 19);
-    
+
     text-decoration: none;
-    font-weight: bold;   
+    font-weight: bold;
     padding: 30px 15px;
     width: 65px;
     height:30px;
@@ -46,7 +46,7 @@ header{
 }
 #botonera ul li, #redes ul li{
     display: inline-block;
-    
+
 }
 #botonera ul li a:hover {
     background-color: rgb(187, 255, 0);
@@ -54,7 +54,7 @@ header{
 }
 /*caja botonera*/
 #botonera {
-    
+
     width: 400px;
     height:90px;
     float: right;  /*lleva la caja hacia la derecha y habilita espacio hacia la izquierda*/
@@ -63,12 +63,12 @@ header{
 #contenido_principal{
         width: 960px;
         height:800px;
-        
+
         margin-left: auto;
         margin-right: auto;
         margin-top: 10px;
         font-size: 15px;
-      
+
 
 }
 footer{
@@ -76,8 +76,9 @@ footer{
     height:134px;
     background-color: rgb(7, 8, 31);
     margin-left: auto;
-    margin-right: auto;
+    margin-right:220px;
     margin-top: 10px;
+    float: right;
 }
 #contenidocaja1{
     width: 310px;
@@ -121,7 +122,7 @@ footer{
   #contenidocaja5{
     width: 310px;
     height:400px;
-    
+
     float: right;
     margin-top: 10px;
     margin-right: 10px;
@@ -136,7 +137,7 @@ footer{
     float: left;
     padding: 5px;
     box-sizing: border-box;
-    text-align:justify; 
+    text-align:justify;
 }
 
 #datos{
@@ -148,14 +149,14 @@ footer{
     text-align: justify;
     box-sizing: border-box;
     padding: 5px;
-} 
+}
 #redes{
     width: 100px;
     height:40px;
     margin-top: 10px;
-    
+
     margin-right: 5px;
-  
+
     float: right;
 }
 #redes ul li a{
@@ -170,6 +171,173 @@ footer{
 #redes ul li a:hover{
     color:white;
 }
-    
-  
-  
+#nosotros{
+ width:960px;
+ height: 200px;
+ margin-top: 10px;
+ background-color: white;
+ float: right;
+}
+#servicios{
+  width:960px;
+  height: 200px;
+  margin-top: 10px;
+  background-color: yellow;
+  float: right;
+}
+/*RESPONSIVE WEB ADAPTABLE*/
+@media all and (min-width:600px) and (max-width:1023px) {
+  h1{
+    font-size: 14px;
+    text-align: center;
+    padding: 15px;
+  }
+header{
+      width: 580px;
+      height: 60px
+
+}
+  #marca{
+      width: 200px;
+}
+#botonera ul li a{
+      display: block;
+      font-size: 13px;
+      padding: 15px 15px;
+      width: 53px;
+      height:30px;
+      line-height: 30px;
+      background-color: green;
+      margin-right: 0px;
+    }
+      #botonera {
+
+      width: 350px;
+        /*lleva la caja hacia la derecha y habilita espacio hacia la izquierda*/
+  }
+    #contenido_principal{
+          width: 960px;
+          height:800px;
+
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 10px;
+          font-size: 15px;
+
+
+  }
+  footer{
+      width: 960px;
+      height:134px;
+      background-color: rgb(7, 8, 31);
+      margin-left: auto;
+      margin-right:220px;
+      margin-top: 10px;
+      float: right;
+  }
+  #contenidocaja1{
+      width: 310px;
+      height:800px;
+      background-color: rgb(63, 73, 207);
+      float: right;
+      color: white;
+      box-sizing: border-box;
+      padding: 5px;
+      text-align: justify;
+  }
+  #contenidocaja1 a{
+      text-decoration: none;
+      color: aqua;
+  }
+
+  #contenidocaja3{
+      width: 310px;
+      height:190px;
+      background-image: url(imagenes/img1.jpg);/*INSERTAR IMAGEN*/
+      background-size: cover;/*ajusta la imagen a la caja*/
+      float: right;
+      margin-right: 10px;
+  }
+  #contenidocaja4{
+      width: 310px;
+      height:190px;
+      background-color: #5596e6;
+      float: right;
+      margin-top: 10px;
+      margin-right: 10px;
+
+  }
+  #contenidocaja4 h1{
+      color: white;
+     box-sizing: content-box;
+     padding: 20px 10px;
+     text-align: center;
+
+  }
+    #contenidocaja5{
+      width: 310px;
+      height:400px;
+
+      float: right;
+      margin-top: 10px;
+      margin-right: 10px;
+      background-image: url(imagenes/imagesnode.jpg);
+      background-size:cover;
+    }
+  #contenidocaja2 {
+      width: 320px;
+      height:800px;
+      color: white;
+      background-color:#5596e6;/*#5596e6*/
+      float: left;
+      padding: 5px;
+      box-sizing: border-box;
+      text-align:justify;
+  }
+
+  #datos{
+      width: 300px;
+      height:134px;
+      background-color: rgb(122, 115, 120);
+      float: left;
+      font-size: 12px;
+      text-align: justify;
+      box-sizing: border-box;
+      padding: 5px;
+  }
+  #redes{
+      width: 100px;
+      height:40px;
+      margin-top: 10px;
+
+      margin-right: 5px;
+
+      float: right;
+  }
+  #redes ul li a{
+      display:block;
+      color: #a8a09e;
+     text-decoration: none;
+      font-size: 17px;
+      box-sizing: content-box;
+      margin-right: 3px;
+
+  }
+  #redes ul li a:hover{
+      color:white;
+  }
+  #nosotros{
+   width:960px;
+   height: 200px;
+   margin-top: 10px;
+   background-color: white;
+   float: right;
+  }
+  #servicios{
+    width:960px;
+    height: 200px;
+    margin-top: 10px;
+    background-color: yellow;
+    float: right;
+  }
+}
